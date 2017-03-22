@@ -512,12 +512,7 @@ span.rmore.r2{
 	border-bottom: none;	
 }
 .links li a{
-	padding-left: 4px;	
+	padding-left: 4px;
+	color: #0f4db6;
 }
-hr{	
-	margin-bottom: 8px;
-	width: 264px;	
-	border: 1px dashed #ccc;
-}
-
 /*COL3*/
