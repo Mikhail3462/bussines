@@ -44,15 +44,14 @@ nav{
   text-transform: uppercase;  
   font-family: Arial; 
   font-size: 12px; 
-  font-weight: bold;
-  color: #808080;  
-  margin-top: 15px;   
+  font-weight: bold;  
+  margin-top: 15px;	  
 }
 nav li{  
   display: inline-block;  
   padding: 2px 15px 2px 15px;  
   margin: 0 15px 0px 3.7px;
-  cursor: pointer;
+  cursor: pointer;  
 }
 nav li:not(.current):hover{
   background: url(../img/bg-li-current.gif) repeat-x 0 0;
@@ -66,6 +65,9 @@ nav li.current{
   border: 1px solid black;
   border-radius: 4px;
   color: #fff;
+}
+nav li a{
+	color: #808080;
 }
 /*HEADER*/
 
