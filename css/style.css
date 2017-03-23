@@ -58,7 +58,7 @@ nav li:not(.current):hover{
   border: 1px solid black;
   border-radius: 4px;
   margin-right: 13px;
-  color: #fff;  
+  color: #fff;    
 }
 nav li.current{
   background: url(../img/bg-li-current.gif) repeat-x 0 0;
@@ -516,3 +516,11 @@ span.rmore.r2{
 	color: #0f4db6;
 }
 /*COL3*/
+
+/*FOOTER*/
+footer{	
+	height: 274px !important;
+	background: #9c9c9c;
+	border-radius: 0 0 6px 6px;
+}
+/*FOOTER*/
