@@ -532,7 +532,7 @@ span.rmore.r2{
 .top-footer li{
 	display: inline-block;
 	float: left;  
-  margin: 20px 0 0 41px;  
+  margin: 17px 0 0 41px;  
 }
 .top-footer h3{
   font-size: 15px;  
@@ -545,7 +545,7 @@ span.rmore.r2{
 }
 
 .top-footer .ourtestli{
-  margin: 21px 0 0 123px;
+  margin: 18px 0 0 123px;
 }
 .top-footer .ourtesth3{
   margin-bottom: 20px;
@@ -568,7 +568,7 @@ span.rmore.r2{
 .bottom-footer{  
   background: #ededed;
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
   float: left;
   clear: left;    
   border-radius: 0 0 7px 7px;
