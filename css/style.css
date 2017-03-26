@@ -521,12 +521,12 @@ span.rmore.r2{
 
 /*FOOTER*/
 footer{	
-	//height: 274px !important;
-	background: #ededed;
+	//height: 274px !important;	
 	//border-radius: 0 0 6px 6px;
 	/*box shadow*/  
 }
 .top-footer{
+  background: #ededed;
   height: 214px;
   border-bottom: 1px solid #ccc;
 }
@@ -564,13 +564,40 @@ footer{
 }
 .from-our-blog-li b{
   color: #0f4db6;
-}  
-.bottom-footer{
-  margin-top: 7px;
+}
+
+.bottom-footer{  
+  background: #ededed;
+  width: 100%;
   margin-bottom: 100px;
   float: left;
-  clear: left;
-  //border: 1px solid red;
-  height: 60px;
+  clear: left;    
+  border-radius: 0 0 7px 7px;
+  height: 59px;  
+}
+.bottom-footer li{
+  display: inline-block;
+}
+.bottom-footer li.copyright{
+  float: left;
+  //clear: left;
+  padding: 18px 0 0 41px;
+}
+.bottom-footer li.social-icons{
+  float: right;
+  padding-top: 18px; 
+  padding-right: 74px;
+  //clear: right;
+}
+.bottom-footer li.footer-logo{
+  float: right;
+  padding: 19px 41px 0 0;
+  //clear: right;
+}
+.social-icons img.fb{
+  margin-left: 12px;  
+}
+.social-icons img.in{
+  margin-left: 9px;  
 }
 /*FOOTER*/
