@@ -525,9 +525,13 @@ footer{
 	//border-radius: 0 0 6px 6px;
 	/*box shadow*/  
 }
+.top-footer-gr{
+  height: 3px;
+  background-image: linear-gradient(to bottom, #bababa 0%, #e2e2e2 100%);
+}
 .top-footer{
   background: #ededed;
-  height: 214px;
+  height: 211px;  
   border-bottom: 1px solid #ccc;
 }
 .top-footer li{
