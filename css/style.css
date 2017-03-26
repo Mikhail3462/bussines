@@ -520,11 +520,6 @@ span.rmore.r2{
 /*COL3*/
 
 /*FOOTER*/
-footer{	
-	//height: 274px !important;	
-	//border-radius: 0 0 6px 6px;
-	/*box shadow*/  
-}
 .top-footer-gr{
   height: 3px;
   background-image: linear-gradient(to bottom, #bababa 0%, #e2e2e2 100%);
