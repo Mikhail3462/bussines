@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -31,7 +32,7 @@ h1{
 }
 span.tel{    
   background: url(../img/bg-tel.png) no-repeat;
-  padding: 0px 25px 4px 94px;
+  padding: 0px 26px 4px 94px;
   font-size: 18px;
   font-weight: bold;
   color: #c0c0c0;
@@ -50,7 +51,7 @@ nav{
 nav li{  
   display: inline-block;  
   padding: 2px 15px 2px 15px;  
-  margin: 0 15px 0px 3.7px;
+  margin: 0 15px 0px 4px;
   cursor: pointer;  
 }
 nav li:not(.current):hover{
@@ -128,7 +129,7 @@ nav li a{
  * BASE STYLES
  * ====================================================================================================================*/
 .flexslider {
-  margin: 89px 49px 0 0;
+  margin: 90px 51px 0 0;
   padding: 0;
 }
 .flexslider .slides > li {
@@ -294,7 +295,7 @@ html[xmlns] .flexslider .slides {
   position: absolute;
   text-align: center;
   top: -30px;
-  margin: 0px 0px 0px 160px;
+  margin: -1px 0px 0px 161px;
 }
 .flex-control-nav li {
   margin: 0 2.5px;
@@ -385,25 +386,25 @@ html[xmlns] .flexslider .slides {
   clear: left;  
   margin: 84px 0 0 50px;
   line-height: 34px;
-  letter-spacing: -1.39px;
+  letter-spacing: -1.46px;
   text-shadow: 3px 3px 5px #000;
 }
 .fz35{
   font-size: 34px;
   text-transform: uppercase;
-  margin: 5px 0 38px 2px;
-  letter-spacing: -0.5px;
+  margin: 5px 0 38px 0px;
+  letter-spacing: -0.42px;
 }
 .startedbtn{
-  padding: 13px 53px 14px 25px;  
-  margin-left: 6px;
+  padding: 13px 53px 15px 26px;  
+  margin-left: 4px;
   text-transform: uppercase;
   font-size: 20px;
   letter-spacing: 0.42px;
   border-radius: 7px;
   color: #b90016;
   text-shadow:none;
-  background: url(../img/arrow.png) no-repeat 216px 16px,   url(../img/bg-started.gif) repeat-x 0 0;
+  background: url(../img/arrow.png) no-repeat 217px 16px,   url(../img/bg-started.gif) repeat-x 0 0;
   cursor: pointer;
   box-shadow: 0px 2px 3px #000;
 }
@@ -420,13 +421,14 @@ html[xmlns] .flexslider .slides {
 .aftsl li img{
   float: left;
   //clear: left;
-  margin-right: 21px;
+  margin-right: 20px;
+  clear: left;
 }
 .aftsl li{
   float: left;
   clear: right;
   display: inline-block;
-  margin: 17px 0 0 49px;
+  margin: 16px 0 0 49px;
   width: 255px;  
 }
 .aftsl h3{
@@ -441,11 +443,11 @@ html[xmlns] .flexslider .slides {
 }
 
 .aftsl img.always{
-  margin: -4px 0 0 1px;  
+  margin: -4px -1px 0 1px;  
   padding-right: 12px;
 }
 .aftsl img.contact{
-  margin-right: 15px;
+  margin-right: 14px;
   margin-top: 2px;  
 }
 /*AFTSL*/
@@ -459,7 +461,7 @@ html[xmlns] .flexslider .slides {
   display: inline-block;
   width: 200px;
   float: left;
-  margin: 37px 64px 0 42px;
+  margin: 37px 65px 0 41px;
 }
 .col3ul h2{
   font-size: 25px;
@@ -520,7 +522,29 @@ span.rmore.r2{
 /*FOOTER*/
 footer{	
 	height: 274px !important;
-	background: #9c9c9c;
+	background: #ededed;
 	border-radius: 0 0 6px 6px;
+	/*box shadow*/	
 }
+.top-footer li{
+	display: inline-block;
+	float: left;  
+  margin: 20px 0 0 41px;
+}
+.top-footer h3{
+  font-size: 15px;  
+}
+.top-footer a{
+  color: #4f4f4f;
+}
+.top-footer .browse{
+  margin-bottom:20px;  
+}
+.top-footer .ourtestli{
+  margin: 21px 0 0 123px;
+}
+.top-footer .ourtesth3{
+  margin-bottom: 20px;
+}
+
 /*FOOTER*/
