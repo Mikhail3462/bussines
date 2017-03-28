@@ -605,10 +605,10 @@ span.rmore.r2{
 /*ABOUT PAGE*/
 .about-us{
   background: url(../img/bg-aboutus.png) no-repeat 0 0;
-  height: 84px;  
+  height: 84px;     
 }
 .about-us h1{
-  float: left;
+  float: left;  
   font-family: Arial, sans-serif;
   font-weight: bold;
   font-size: 24px;  
@@ -624,4 +624,24 @@ span.rmore.r2{
   color: #fff;
   margin: 28px 35px 0 0;
 }
-/*ABOUT PAGE*/
+
+.main-block{
+  background: #fff;
+ // height: 100px;
+}
+.main-block main p{
+  line-height: 24px;
+  padding-top: 4px;
+}
+main{
+  width: 631px;
+  float: left;
+  padding: 31px 0 0 41px;
+}
+/*ABOUT PAGE END*/
+
+.main-block:after{
+  content: '';
+  display: table;
+  clear: both;
+}
