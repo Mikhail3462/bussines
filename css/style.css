@@ -33,6 +33,7 @@ h1{
 span.tel{    
   background: url(../img/bg-tel.png) no-repeat;
   padding: 0px 26px 4px 94px;
+  //font-family: Arial, sans-serif;
   font-size: 18px;
   font-weight: bold;
   color: #c0c0c0;
@@ -66,6 +67,9 @@ nav li.current{
   border: 1px solid black;
   border-radius: 4px;
   color: #fff;
+}
+nav li.current a{
+  color: #fff; 
 }
 nav li a{
 	color: #808080;
@@ -419,8 +423,7 @@ html[xmlns] .flexslider .slides {
   border-bottom: 1px solid #ccc; 
 }
 .aftsl li img{
-  float: left;
-  //clear: left;
+  float: left;  
   margin-right: 20px;
   clear: left;
 }
@@ -429,7 +432,7 @@ html[xmlns] .flexslider .slides {
   clear: right;
   display: inline-block;
   margin: 16px 0 0 49px;
-  width: 255px;  
+  width: 255px;   
 }
 .aftsl h3{
   margin: 4px 0 0 0px;
@@ -439,7 +442,7 @@ html[xmlns] .flexslider .slides {
 .aftsl p{
   margin-top: -4px; 
   line-height: 15px;
-  color: #4f4f4f;
+  color: #4f4f4f;  
 }
 
 .aftsl img.always{
@@ -578,20 +581,17 @@ span.rmore.r2{
   display: inline-block;
 }
 .bottom-footer li.copyright{
-  float: left;
-  //clear: left;
+  float: left;  
   padding: 18px 0 0 41px;
 }
 .bottom-footer li.social-icons{
   float: right;
   padding-top: 18px; 
-  padding-right: 74px;
-  //clear: right;
+  padding-right: 74px;  
 }
 .bottom-footer li.footer-logo{
   float: right;
-  padding: 19px 41px 0 0;
-  //clear: right;
+  padding: 19px 41px 0 0;  
 }
 .social-icons img.fb{
   margin-left: 12px;  
