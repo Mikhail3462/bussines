@@ -1,7 +1,7 @@
 
 *{
   margin: 0;
-  padding: 0;
+  padding: 0;  
 }
 ul{
   list-style: none;
@@ -24,7 +24,7 @@ header{
   background: #fff;
   border-radius: 5px 5px 0 0;
 }
-h1{
+header h1{
   width: 227px;
   height: 42px;
   float: left;  
@@ -44,7 +44,8 @@ nav{
   float: right;
   clear: right;    
   text-transform: uppercase;  
-  font-family: Arial; 
+  font-family: Arial, sans-serif;  
+  //font-family: 'FreeSans';
   font-size: 12px; 
   font-weight: bold;  
   margin-top: 15px;	  
@@ -600,3 +601,27 @@ span.rmore.r2{
   margin-left: 9px;  
 }
 /*FOOTER*/
+
+/*ABOUT PAGE*/
+.about-us{
+  background: url(../img/bg-aboutus.png) no-repeat 0 0;
+  height: 84px;  
+}
+.about-us h1{
+  float: left;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;  
+  color: #fff;
+  margin: 23px 0 0 40px;
+  letter-spacing: 0.6px;
+}
+.about-us p{
+  float: right;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-size: 20px;  
+  color: #fff;
+  margin: 28px 35px 0 0;
+}
+/*ABOUT PAGE*/
