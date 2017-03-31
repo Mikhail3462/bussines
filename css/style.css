@@ -625,9 +625,8 @@ span.rmore.r2{
   margin: 28px 35px 0 0;
 }
 
-.main-block{
-  background: #fff;
- // height: 100px;
+.main-block{  
+  background: url(../img/bg-aboutus-sidebar.png) repeat-y 699px 0 #fff; 
 }
 .main-block main p{
   line-height: 24px;
@@ -637,7 +636,43 @@ span.rmore.r2{
 main{
   width: 631px;
   float: left;
-  padding: 31px 0 0 41px;
+  padding: 31px 26px 0 41px;  
+}
+.side-bar{
+  float: right;
+  margin: 39px 44px 0 0;
+  background: #fff;
+  background: url(../img/bg-aboutus-sidebar.png) repeat-y 0 0 #fff;
+}
+.sb-block{
+  margin-bottom: 31px;
+}
+.sb-block h3.title{
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  padding-left: 22px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  margin-bottom: 12px;
+  margin-left: 1px;
+  background-image: linear-gradient(to right, #cfcfcf, #fff);
+}
+.sb-links li{
+  display: list-item;
+  list-style-position: inside;
+  list-style-image: url(../img/li-arrow.png);
+  border-bottom: 1px dotted #838383;
+  width: 195px;
+  padding-top: 3px;
+  margin-left: 22px;
+  padding-bottom: 6px;  
+}
+.sb-links li:last-child{
+  border-bottom: none;
+}
+.sb-links li a.sb-linksa{
+  padding-left: 5px;
 }
 /*ABOUT PAGE END*/
 
