@@ -692,7 +692,15 @@ main{
 }
 /*ABOUT PAGE END*/
 
-.main-block:after{
+/*SERVICES PAGE*/
+.about-us p.serv-p{
+  margin-right: 65px;  
+}
+
+
+/*SERVICES PAGE END*/
+
+.main-block:after, .main-block-services:after{
   content: '';
   display: table;
   clear: both;
